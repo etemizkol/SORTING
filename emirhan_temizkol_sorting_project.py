@@ -11,7 +11,7 @@ pd.set_option('display.max_rows', None)
 pd.set_option('display.float_format', lambda x: '%.5f' % x)
 pd.set_option('display.expand_frame_repr', False)
 
-df_ = pd.read_csv(r"D:\DATA SCIENCE\VAHİT BAŞKAN\6. Hafta\Sorting\df_sub.csv")
+df_ = pd.read_csv(r"\df_sub.csv")
 df = df_.copy()
 df.head()
 df.info()
